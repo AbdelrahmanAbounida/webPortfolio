@@ -19,8 +19,8 @@ const ProfComponent = () => {
 
   const onDownload = () => {
     const link = document.createElement("a");
-    link.download = `CV.pdf`;
-    link.href = "CV.pdf";
+    link.download = `/webPortfolio.pdf`;
+    link.href = "/webPortfolio.pdf";
     link.click();
   };
   
@@ -32,7 +32,7 @@ const ProfComponent = () => {
           
           <Button
             sx={ButtonStyles}>
-                <a href={"process.env.PUBLIC_URL + '/webPortfolio.pdf'"} target="_blank">
+                <a href='/files/webPortfolio.pdf' target="_blank" onClick={onDownload}>
                   Download csv
                 </a>
           </Button>
