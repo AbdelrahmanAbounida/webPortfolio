@@ -158,4 +158,5 @@ const Profile = styled.div`
   :hover img {
     transform: translateY(-10px);
   }
+  
 `;
