@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/webPortfolio/static/css/main.9a67c228.css",
+    "main.js": "/webPortfolio/static/js/main.2b1cad58.js",
+    "static/media/fish.png": "/webPortfolio/static/media/fish.4fff6df4e4cfabcf6ac3.png",
+    "static/media/movieLand.png": "/webPortfolio/static/media/movieLand.d86d2f585241bb5274a6.png",
+    "static/media/youtube.png": "/webPortfolio/static/media/youtube.074bc8f31b501a23363a.png",
+    "static/media/csv_dashboard.png": "/webPortfolio/static/media/csv_dashboard.6cd7ae2461dc03118025.png",
+    "static/media/pin.jpg": "/webPortfolio/static/media/pin.793405c3096b7c747279.jpg",
+    "static/media/sports.png": "/webPortfolio/static/media/sports.c91629bc2e03577df997.png",
+    "static/media/YoutubeExplainer.png": "/webPortfolio/static/media/YoutubeExplainer.3aefa5e1f382c33744d0.png",
+    "static/media/hotsauce.png": "/webPortfolio/static/media/hotsauce.74e6d2463a2a1bc3a839.png",
+    "static/media/manualControl.png": "/webPortfolio/static/media/manualControl.a7157e72363337c4ff5f.png",
+    "static/media/pms.png": "/webPortfolio/static/media/pms.3c3eae77e63e2e99f3e1.png",
+    "static/media/ExcelModelDash.png": "/webPortfolio/static/media/ExcelModelDash.3ad2ebf13af18970a3d7.png",
+    "static/media/blog.png": "/webPortfolio/static/media/blog.ba0b92f2654c3dfabaa7.png",
+    "static/media/dice2.png": "/webPortfolio/static/media/dice2.c6eb9206b0ef53abd54f.png",
+    "index.html": "/webPortfolio/index.html",
+    "main.9a67c228.css.map": "/webPortfolio/static/css/main.9a67c228.css.map",
+    "main.2b1cad58.js.map": "/webPortfolio/static/js/main.2b1cad58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a67c228.css",
+    "static/js/main.2b1cad58.js"
+  ]
+}
