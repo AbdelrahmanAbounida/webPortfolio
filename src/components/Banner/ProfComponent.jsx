@@ -32,7 +32,7 @@ const ProfComponent = () => {
           
           <Button
             sx={ButtonStyles}>
-                <a href="/files/webPortfolio.pdf" target="_blank">
+                <a href={"process.env.PUBLIC_URL + '/webPortfolio.pdf'"} target="_blank">
                   Download csv
                 </a>
           </Button>
