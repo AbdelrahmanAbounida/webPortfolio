@@ -9,8 +9,6 @@ import AnimatedBackground from "./AnimatedBackground";
 import { Stack, Box,Typography,Button } from "@mui/material";
 import {styles} from '../../styles/styles'
 
-
-
 const ProfComponent = () => {
 
   const titleStyles = styles.titleStyles
@@ -32,7 +30,7 @@ const ProfComponent = () => {
           
           <Button
             sx={ButtonStyles}>
-                <a href='/files/webPortfolio.pdf' target="_blank" onClick={onDownload}>
+                <a href={process.env.PUBLIC_URL + '/files/webPortfolio.pdf'} target="_blank" >
                   Download csv
                 </a>
           </Button>
