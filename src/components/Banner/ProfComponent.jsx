@@ -32,7 +32,7 @@ const ProfComponent = () => {
           
           <Button
             sx={ButtonStyles}>
-                <a href={process.env.PUBLIC_URL + '/files/webPortfolio.pdf'} target="_blank" onClick={onDownload}>
+                <a href='/files/webPortfolio.pdf' target="_blank" onClick={onDownload}>
                   Download csv
                 </a>
           </Button>
@@ -158,5 +158,4 @@ const Profile = styled.div`
   :hover img {
     transform: translateY(-10px);
   }
-  
 `;
