@@ -23,6 +23,7 @@ import dice from '../../constants/proj_images/dice2.png'
 import blog from '../../constants/proj_images/blog.png'
 import csvDash from '../../constants/proj_images/csv_dashboard.png'
 import productManagement from '../../constants/proj_images/pms.png'
+import chatApp from '../../constants/proj_images/chat.png'
 
 
 
@@ -54,8 +55,7 @@ const ProjectCard = (props) => {
         case 'blog': return blog;break;
         case 'csvDash': return csvDash;break;
         case 'productManagement': return productManagement;break;
-
-
+        case 'chat': return chatApp;break;
         default: return ;break;
       }
   }
@@ -141,7 +141,6 @@ const ProjectCard = (props) => {
                 ))}
               <span style={{fontSize:17}}>] </span>
               </>
-
               
       </Box>
 
@@ -154,7 +153,7 @@ const ProjectCard = (props) => {
       </Box>
 
       <CardActions sx={{display:"flex",width:"100%",justifyContent:"space-around",mt:2,position:"absolute",bottom:18}}>
-          <Button  component={motion.button} whileHover={buttonHover1}   variant="outlined" className="movie" sx={{border:1.7,fontSize:17,px:3,color:"#fff"}}><Link href={project.github_url} target="_blank">Github</Link></Button>
+          <Button disabled={!project.github_enabled} component={motion.button} whileHover={buttonHover1}   variant="outlined" className="movie" sx={{border:1.7,fontSize:17,px:3,color:"#fff"}}><Link href={project.github_url} target="_blank">Github</Link></Button>
           <Button disabled={!project.live_enabled}  component={motion.button} whileHover={buttonHover2}  variant="contained"  sx={{fontSize:17,px:3,color:"#000",backgroundColor:"white"}}><Link href={project.live_url} target="_blank">Live Demo</Link></Button>
       </CardActions>
     </Card>

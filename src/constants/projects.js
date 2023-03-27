@@ -2,6 +2,20 @@
 // just add a project details here , and then add its image in ProjectCard.jsx file and update getIamge function
 
 export const projects = [
+
+    {
+        title:"Chat App",
+        tools:["React","Chat-Engine"],
+        live_url:"https://hotsauce-scrapper.herokuapp.com/",
+        imgName:"chat",
+        details: "a Simple Chat app using react-chat-engine",
+        live_url:"https://aboneda-chat.netlify.app/",
+        live_enabled:true,
+        github_enabled:false,
+        imgHeight:"1460",
+        id:"React"
+    },
+    
     {
         title:"Sauce Website Scrapper",
         tools:["Bootstrap","Flask","Scrapy"],
@@ -10,6 +24,7 @@ export const projects = [
         details: "Web scraping app which has some features like scraping, authentication and data storage",
         github_url:"https://github.com/AbdelrahmanAbounida/hotsauce-scrapper-heroku",
         live_enabled:true,
+        github_enabled:true,
         imgHeight:"1460",
         id:"Flask"
     },
@@ -24,6 +39,7 @@ export const projects = [
         imgName:"youtube",
         github_url:"https://github.com/AbdelrahmanAbounida/Educational-Youtube",
         live_enabled:true,
+        github_enabled:true,
         imgHeight:"1500",
         id:"React"
 
@@ -37,6 +53,7 @@ export const projects = [
         details:"A web dashboard to control robot remotely by opening a websocket connection with ROS, it includes some other features like authentication, autherization and some other API manipulation",
         github_url:"https://github.com/AbdelrahmanAbounida/controldashboard",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1590",
         id:"React Django"
 
@@ -50,6 +67,7 @@ export const projects = [
         github_url:"https://github.com/AbdelrahmanAbounida/ExcelModelwebView",
         live_url:"https://abdelrahmanabounida.github.io/ExcelModelwebView/",
         live_enabled:true,
+        github_enabled:true,
         imgHeight:"1690",
         id:"React"
     },
@@ -61,6 +79,7 @@ export const projects = [
         details:"Explain Youtube Video using OpenAI, Langchain",
         github_url:"https://github.com/AbdelrahmanAbounida/youtubeexplainer-langchain",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"Flask"
     },
@@ -72,6 +91,7 @@ export const projects = [
         details:"Fine Tuning Yolov7 model to detect Port containers' pins",
         github_url:"https://github.com/AbdelrahmanAbounida/custom_pin_detection",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"All"
     },
@@ -83,6 +103,7 @@ export const projects = [
         details:"This is a complete SAAS app with authentication, dashboard, Strip (not completed yet) and asynchronous task scheduling with celery and redis",
         github_url:"https://github.com/AbdelrahmanAbounida/dicegame",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"Flask"
     },
@@ -94,6 +115,7 @@ export const projects = [
         details:"A demo blog app using flask",
         github_url:"https://github.com/AbdelrahmanAbounida/flask_blog",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"Flask"
     },
@@ -105,6 +127,7 @@ export const projects = [
         details:"CSV Analysing using React",
         github_url:"https://github.com/AbdelrahmanAbounida/csv_dashboard",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"React"
     },
@@ -116,6 +139,7 @@ export const projects = [
         imgName:"movie",
         github_url:"https://github.com/AbdelrahmanAbounida/Movie-Recommendation-Engine",
         live_enabled:true,
+        github_enabled:true,
         imgHeight:"1440",
         id:"React"
 
@@ -127,6 +151,7 @@ export const projects = [
         details:"product-Management-System",
         github_url:"https://github.com/AbdelrahmanAbounida/product-Management-System",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1690",
         id:"All"
     },
@@ -139,6 +164,7 @@ export const projects = [
         imgName:"fish",
         github_url:"",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1330",
         id:"Vanille JS"
 
@@ -151,6 +177,7 @@ export const projects = [
         details:"Sports website scraping using scrapy",
         github_url:"https://github.com/AbdelrahmanAbounida/SportsScrapy",
         live_enabled:false,
+        github_enabled:true,
         imgHeight:"1590",
         id:"Scrapy"
 
